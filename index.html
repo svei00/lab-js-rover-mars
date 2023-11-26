@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mars Rover</title>
+</head>
+<body>
+  <!-- Canvas for Mars Grid -->
+  <canvas id="marsCanvas" width="400" height="400" style="border:1px solid #000;"></canvas>
+
+  <!-- Travel Log Display -->
+  <div id="travel-log"></div>
+
+  <!-- Buttons for Rover Controls -->
+  <button onclick="goForward(rover1)">Move Forward</button>
+  <button onclick="moveBackward(rover1)">Move Backward</button>
+  <button onclick="turnLeft(rover1)">Turn Left</button>
+  <button onclick="turnRight(rover1)">Turn Right</button>
+
+  <script src="./js/scripts.js"></script>
+</body>
+</html>
